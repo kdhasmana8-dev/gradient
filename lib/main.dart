@@ -3,7 +3,7 @@ import 'package:gradient/screen/calender_page.dart';
 import 'package:gradient/screen/details_page.dart';
 import 'package:gradient/screen/explorePage.dart';
 import 'package:gradient/screen/payment_page.dart';
-import 'package:gradient/screen/sidebar_menu.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Travel UI",
+
+     title: "Travel UI",
       debugShowCheckedModeBanner: false,
 
       // ------------------ THEME ------------------
@@ -33,6 +34,7 @@ class MyApp extends StatelessWidget {
         "/drawer": (context) => const SideMenu3D(),        // Side Menu 3D
         "/calendar": (context) => const BookAvailableDatePage(priceText: '', initialRangeText: '',), // Calendar Page
       },
+
     );
   }
 }
