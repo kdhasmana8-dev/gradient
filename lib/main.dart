@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
 
-     title: "Travel UI",
+     title: "New Gradient",
       debugShowCheckedModeBanner: false,
 
       // ------------------ THEME ------------------
